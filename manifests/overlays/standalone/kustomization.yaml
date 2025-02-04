@@ -5,7 +5,7 @@ resources:
   - ../../base
   - namespace.yaml
 images:
-  - name: kubeflow/training-operator
+  - name: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/kubeflow/training-operator
     newTag: "v1-9e52eb7"
 secretGenerator:
   - name: training-operator-webhook-cert
